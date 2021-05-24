@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample/drawer.dart';
-import 'package:sample/sidebarcardview.dart';
+import 'package:sample/profile.dart';
 
 class abhi extends StatefulWidget {
   @override
@@ -98,8 +97,8 @@ class _abhiState extends State<abhi> {
                     ),
                     Container(
                       width: double.infinity,
-                      padding: const EdgeInsets.all(10),
-                      margin: const EdgeInsets.only(bottom: 20),
+                      padding: const EdgeInsets.all(15),
+                      margin: const EdgeInsets.only(bottom: 10),
                       child: ElevatedButton(
                         child: Text(
                           'Login',
@@ -107,9 +106,9 @@ class _abhiState extends State<abhi> {
                         ),
                         onPressed: () {
                           Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => drawer()));
+                            context,
+                            MaterialPageRoute(builder: (context) => profile()),
+                          );
                         },
                       ),
                     ),

@@ -71,10 +71,7 @@ class _introState extends State<intro> {
                           'Login',
                           style: TextStyle(color: Colors.white),
                         ),
-                        onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => abhi()));
-                        },
+                        onPressed: () {},
                       ),
                     ),
                     Container(
